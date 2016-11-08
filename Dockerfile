@@ -12,3 +12,4 @@ RUN mkdir -m 0755 /opt/chainer
 WORKDIR /opt/chainer
 RUN git clone https://github.com/pfnet/chainer.git
 RUN pip install chainer --no-cache-dir
+
